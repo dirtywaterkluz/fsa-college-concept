@@ -27,9 +27,8 @@ Generate the single-file GitHub Pages version:
 npm run build:github-pages
 ```
 
-This writes `docs/index.html`. To publish without paying Squarespace, push this repository to GitHub and enable Pages using either:
+This writes `docs/index.html`. To publish without paying Squarespace, push this repository to GitHub and enable Pages using:
 
-- GitHub Actions, using `.github/workflows/deploy-pages.yml`
 - Deploy from branch: `main` branch, `/docs` folder
 
 ## Content Structure
